@@ -1,0 +1,27 @@
+baseurl = "/"
+title = "Andrea Spada, Liuteria d'Autore"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+
+    [languages.en]
+        languageName = "English"
+        languageCode = "en-US"
+        languageLang = "en"
+    
+    [languages.it]
+        languageName = "Italiano"
+        languageCode = "it-IT"
+        languageLang = "it"
+
+    [languages.pt]
+        languageName = "Portugues"
+        languageCode = "pt-BR"
+        languageLang = "pt"
